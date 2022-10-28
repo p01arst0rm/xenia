@@ -88,3 +88,9 @@
 [submodule "third_party/curl"]
 	path = third_party/curl
 	url = https://github.com/curl/curl.git
+[submodule "third_party/FFmpeg"]
+	path = third_party/FFmpeg
+	url = https://github.com/RPCS3/ffmpeg-core
+[submodule "third_party/llvm"]
+	path = third_party/llvm
+	url = https://github.com/RPCS3/llvm-mirror
