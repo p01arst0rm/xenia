@@ -61,9 +61,6 @@
 [submodule "third_party/xxhash"]
 	path = third_party/xxhash
 	url = https://github.com/Cyan4973/xxHash.git
-[submodule "third_party/FFmpeg"]
-	path = third_party/FFmpeg
-	url = https://github.com/xenia-project/FFmpeg.git
 [submodule "third_party/premake-androidndk"]
 	path = third_party/premake-androidndk
 	url = https://github.com/Triang3l/premake-androidndk.git
@@ -85,3 +82,9 @@
 [submodule "third_party/VulkanMemoryAllocator"]
 	path = third_party/VulkanMemoryAllocator
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "third_party/SPIRV-Headers"]
+	path = third_party/SPIRV-Headers
+	url = https://github.com/KhronosGroup/SPIRV-Headers.git
+[submodule "third_party/curl"]
+	path = third_party/curl
+	url = https://github.com/curl/curl.git
