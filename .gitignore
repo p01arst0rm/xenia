@@ -76,6 +76,14 @@ imgui.ini
 # Build system output
 # ==============================================================================
 
+# toolchain
+local
+
+# subprojects
+subprojects/
+!subprojects/*.wrap
+!subprojects/packagefiles
+
 # npm/node
 .lock-wscript
 node_modules/
