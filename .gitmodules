@@ -1,9 +1,6 @@
 [submodule "subprojects/xbyak"]
 	path = subprojects/xbyak
 	url = https://github.com/xenia-project/xbyak.git
-[submodule "subprojects/imgui"]
-	path = subprojects/imgui
-	url = https://github.com/ocornut/imgui.git
 [submodule "subprojects/binutils-ppc-cygwin"]
 	path = subprojects/binutils-ppc-cygwin
 	url = https://github.com/benvanik/binutils-ppc-cygwin.git
