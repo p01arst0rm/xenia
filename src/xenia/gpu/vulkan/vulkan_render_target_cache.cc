@@ -19,8 +19,8 @@
 #include <utility>
 #include <vector>
 
-#include "third_party/glslang/SPIRV/GLSL.std.450.h"
-#include "third_party/glslang/SPIRV/SpvBuilder.h"
+#include "glslang/SPIRV/GLSL.std.450.h"
+#include "glslang/SPIRV/SpvBuilder.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/cvar.h"
 #include "xenia/base/logging.h"

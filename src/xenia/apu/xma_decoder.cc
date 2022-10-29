@@ -21,7 +21,7 @@
 #include "xenia/kernel/xthread.h"
 
 extern "C" {
-#include "third_party/FFmpeg/libavutil/log.h"
+#include "FFmpeg/libavutil/log.h"
 }  // extern "C"
 
 // As with normal Microsoft, there are like twelve different ways to access

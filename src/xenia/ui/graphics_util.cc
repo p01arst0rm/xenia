@@ -9,7 +9,7 @@
 
 #include "xenia/ui/graphics_util.h"
 
-#include <cmath>
+#include <math.h>
 
 namespace xe {
 namespace ui {

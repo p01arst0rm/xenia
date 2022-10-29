@@ -22,7 +22,7 @@
 #include "xenia/base/platform_win.h"
 #endif
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 
 namespace xe {
 namespace kernel {

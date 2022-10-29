@@ -14,7 +14,7 @@
 // XELOGI.
 #include "xenia/base/logging.h"
 
-#include "third_party/fmt/include/fmt/printf.h"
+#include "fmt/include/fmt/printf.h"
 
 // NOTE: microprofile must be setup first, before profiling.h is included.
 #define MICROPROFILE_ENABLED 1
@@ -32,7 +32,7 @@
 #define MICROPROFILE_WEBSERVER 0
 #define MICROPROFILE_DEBUG 0
 #define MICROPROFILE_MAX_THREADS 128
-#include "third_party/microprofile/microprofile.h"
+#include "microprofile/microprofile.h"
 
 #include "xenia/base/assert.h"
 #include "xenia/base/cvar.h"
@@ -42,7 +42,7 @@
 #include "xenia/ui/window.h"
 
 #if XE_OPTION_PROFILING
-#include "third_party/microprofile/microprofileui.h"
+#include "microprofile/microprofileui.h"
 #endif  // XE_OPTION_PROFILING
 
 #if XE_OPTION_PROFILING_UI

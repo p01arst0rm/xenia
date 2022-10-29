@@ -12,9 +12,9 @@
 #include "xenia/base/threading.h"
 
 #define CATCH_CONFIG_ENABLE_CHRONO_STRINGMAKER
-#include "third_party/catch/include/catch.hpp"
+#include "catch/include/catch.hpp"
 
-#include "third_party/disruptorplus/include/disruptorplus/spin_wait.hpp"
+#include "disruptorplus/include/disruptorplus/spin_wait.hpp"
 
 namespace xe {
 namespace base {

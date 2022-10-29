@@ -12,7 +12,7 @@
 
 #include "xenia/base/string.h"
 
-#include "third_party/catch/include/catch.hpp"
+#include "catch/include/catch.hpp"
 
 namespace xe::base::test {
 

@@ -9,7 +9,7 @@
 
 #include "xenia/base/string.h"
 
-#include <string.h>
+#include <cstring>
 #include <algorithm>
 #include <locale>
 
@@ -20,7 +20,7 @@
 #endif  // !XE_PLATFORM_WIN32
 
 #define UTF_CPP_CPLUSPLUS 201703L
-#include "third_party/utfcpp/source/utf8.h"
+#include "utfcpp/source/utf8.h"
 
 namespace utfcpp = utf8;
 

@@ -14,7 +14,7 @@
 #include <cstring>
 #include <memory>
 
-#include "third_party/dxbc/DXBCChecksum.h"
+#include "dxbc/DXBCChecksum.h"
 
 #include "xenia/base/assert.h"
 #include "xenia/base/cvar.h"

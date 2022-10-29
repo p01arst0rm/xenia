@@ -1,0 +1,8 @@
+[wrap-git]
+directory = discord-rpc_git
+url = https://github.com/discord/discord-rpc.git
+revision = eff23a770a07c3574cb48f299736c461c576286b
+patch_directory = discord-rpc
+
+[provide]
+discord-rpc = discord_rpc_dep

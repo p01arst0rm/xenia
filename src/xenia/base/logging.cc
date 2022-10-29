@@ -16,10 +16,10 @@
 #include <mutex>
 #include <vector>
 
-#include "third_party/disruptorplus/include/disruptorplus/multi_threaded_claim_strategy.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/ring_buffer.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/sequence_barrier.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/spin_wait_strategy.hpp"
+#include "disruptorplus/include/disruptorplus/multi_threaded_claim_strategy.hpp"
+#include "disruptorplus/include/disruptorplus/ring_buffer.hpp"
+#include "disruptorplus/include/disruptorplus/sequence_barrier.hpp"
+#include "disruptorplus/include/disruptorplus/spin_wait_strategy.hpp"
 #include "xenia/base/assert.h"
 #include "xenia/base/atomic.h"
 #include "xenia/base/console.h"
@@ -43,7 +43,7 @@
 #include "xenia/base/platform_win.h"
 #endif  // XE_PLATFORM
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 
 #if XE_PLATFORM_ANDROID
 DEFINE_bool(log_to_logcat, true, "Write log output to Android Logcat.",

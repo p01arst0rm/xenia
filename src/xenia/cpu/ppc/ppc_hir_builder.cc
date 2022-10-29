@@ -12,7 +12,7 @@
 #include <stddef.h>
 #include <cstring>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 
 #include "xenia/base/byte_order.h"
 #include "xenia/base/cvar.h"

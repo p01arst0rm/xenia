@@ -10,7 +10,7 @@
 #include "xenia/gpu/draw_util.h"
 
 #include <algorithm>
-#include <cmath>
+#include <math.h>
 #include <cstring>
 
 #include "xenia/base/assert.h"

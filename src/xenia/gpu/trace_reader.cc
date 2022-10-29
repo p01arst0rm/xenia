@@ -11,7 +11,7 @@
 
 #include <cinttypes>
 
-#include "third_party/snappy/snappy.h"
+#include "snappy/snappy.h"
 #include "xenia/base/filesystem.h"
 #include "xenia/base/logging.h"
 #include "xenia/base/mapped_memory.h"

@@ -9,7 +9,7 @@
 
 #include "xenia/cpu/compiler/passes/finalization_pass.h"
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/base/profiling.h"
 #include "xenia/cpu/backend/backend.h"
 #include "xenia/cpu/compiler/compiler.h"

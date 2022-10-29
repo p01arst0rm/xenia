@@ -1,96 +1,96 @@
-[submodule "third_party/xbyak"]
-	path = third_party/xbyak
+[submodule "subprojects/xbyak"]
+	path = subprojects/xbyak
 	url = https://github.com/xenia-project/xbyak.git
-[submodule "third_party/imgui"]
-	path = third_party/imgui
+[submodule "subprojects/imgui"]
+	path = subprojects/imgui
 	url = https://github.com/ocornut/imgui.git
-[submodule "third_party/binutils-ppc-cygwin"]
-	path = third_party/binutils-ppc-cygwin
+[submodule "subprojects/binutils-ppc-cygwin"]
+	path = subprojects/binutils-ppc-cygwin
 	url = https://github.com/benvanik/binutils-ppc-cygwin.git
-[submodule "third_party/catch"]
-	path = third_party/catch
+[submodule "subprojects/catch"]
+	path = subprojects/catch
 	url = https://github.com/catchorg/Catch2.git
-[submodule "third_party/premake-core"]
-	path = third_party/premake-core
+[submodule "subprojects/premake-core"]
+	path = subprojects/premake-core
 	url = https://github.com/xenia-project/premake-core.git
-[submodule "third_party/snappy"]
-	path = third_party/snappy
+[submodule "subprojects/snappy"]
+	path = subprojects/snappy
 	url = https://github.com/xenia-project/snappy.git
-[submodule "third_party/premake-export-compile-commands"]
-	path = third_party/premake-export-compile-commands
+[submodule "subprojects/premake-export-compile-commands"]
+	path = subprojects/premake-export-compile-commands
 	url = https://github.com/xenia-project/premake-export-compile-commands.git
-[submodule "third_party/discord-rpc"]
-	path = third_party/discord-rpc
+[submodule "subprojects/discord-rpc"]
+	path = subprojects/discord-rpc
 	url = https://github.com/discordapp/discord-rpc.git
-[submodule "third_party/rapidjson"]
-	path = third_party/rapidjson
+[submodule "subprojects/rapidjson"]
+	path = subprojects/rapidjson
 	url = https://github.com/Tencent/rapidjson.git
-[submodule "third_party/aes_128"]
-	path = third_party/aes_128
+[submodule "subprojects/aes_128"]
+	path = subprojects/aes_128
 	url = https://github.com/openluopworld/aes_128.git
-[submodule "third_party/capstone"]
-	path = third_party/capstone
+[submodule "subprojects/capstone"]
+	path = subprojects/capstone
 	url = https://github.com/xenia-project/capstone.git
-[submodule "third_party/cpptoml"]
-	path = third_party/cpptoml
+[submodule "subprojects/cpptoml"]
+	path = subprojects/cpptoml
 	url = https://github.com/skystrife/cpptoml.git
-[submodule "third_party/cxxopts"]
-	path = third_party/cxxopts
+[submodule "subprojects/cxxopts"]
+	path = subprojects/cxxopts
 	url = https://github.com/jarro2783/cxxopts.git
-[submodule "third_party/SDL2"]
-	path = third_party/SDL2
+[submodule "subprojects/SDL2"]
+	path = subprojects/SDL2
 	url = https://github.com/libsdl-org/SDL.git
-[submodule "third_party/utfcpp"]
-	path = third_party/utfcpp
+[submodule "subprojects/utfcpp"]
+	path = subprojects/utfcpp
 	url = https://github.com/xenia-project/utfcpp.git
-[submodule "third_party/fmt"]
-	path = third_party/fmt
+[submodule "subprojects/fmt"]
+	path = subprojects/fmt
 	url = https://github.com/fmtlib/fmt.git
-[submodule "third_party/disruptorplus"]
-	path = third_party/disruptorplus
+[submodule "subprojects/disruptorplus"]
+	path = subprojects/disruptorplus
 	url = https://github.com/xenia-project/disruptorplus.git
-[submodule "third_party/DirectXShaderCompiler"]
-	path = third_party/DirectXShaderCompiler
+[submodule "subprojects/DirectXShaderCompiler"]
+	path = subprojects/DirectXShaderCompiler
 	url = https://github.com/microsoft/DirectXShaderCompiler.git
-[submodule "third_party/premake-cmake"]
-	path = third_party/premake-cmake
+[submodule "subprojects/premake-cmake"]
+	path = subprojects/premake-cmake
 	url = https://github.com/JoelLinn/premake-cmake.git
-[submodule "third_party/date"]
-	path = third_party/date
+[submodule "subprojects/date"]
+	path = subprojects/date
 	url = https://github.com/HowardHinnant/date.git
-[submodule "third_party/xxhash"]
-	path = third_party/xxhash
+[submodule "subprojects/xxhash"]
+	path = subprojects/xxhash
 	url = https://github.com/Cyan4973/xxHash.git
-[submodule "third_party/premake-androidndk"]
-	path = third_party/premake-androidndk
+[submodule "subprojects/premake-androidndk"]
+	path = subprojects/premake-androidndk
 	url = https://github.com/Triang3l/premake-androidndk.git
-[submodule "third_party/FidelityFX-CAS"]
-	path = third_party/FidelityFX-CAS
+[submodule "subprojects/FidelityFX-CAS"]
+	path = subprojects/FidelityFX-CAS
 	url = https://github.com/GPUOpen-Effects/FidelityFX-CAS.git
-[submodule "third_party/FidelityFX-FSR"]
-	path = third_party/FidelityFX-FSR
+[submodule "subprojects/FidelityFX-FSR"]
+	path = subprojects/FidelityFX-FSR
 	url = https://github.com/GPUOpen-Effects/FidelityFX-FSR.git
-[submodule "third_party/Vulkan-Headers"]
-	path = third_party/Vulkan-Headers
+[submodule "subprojects/Vulkan-Headers"]
+	path = subprojects/Vulkan-Headers
 	url = https://github.com/KhronosGroup/Vulkan-Headers.git
-[submodule "third_party/glslang"]
-	path = third_party/glslang
+[submodule "subprojects/glslang"]
+	path = subprojects/glslang
 	url = https://github.com/KhronosGroup/glslang.git
-[submodule "third_party/SPIRV-Tools"]
-	path = third_party/SPIRV-Tools
+[submodule "subprojects/SPIRV-Tools"]
+	path = subprojects/SPIRV-Tools
 	url = https://github.com/KhronosGroup/SPIRV-Tools.git
-[submodule "third_party/VulkanMemoryAllocator"]
-	path = third_party/VulkanMemoryAllocator
+[submodule "subprojects/VulkanMemoryAllocator"]
+	path = subprojects/VulkanMemoryAllocator
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
-[submodule "third_party/SPIRV-Headers"]
-	path = third_party/SPIRV-Headers
+[submodule "subprojects/SPIRV-Headers"]
+	path = subprojects/SPIRV-Headers
 	url = https://github.com/KhronosGroup/SPIRV-Headers.git
-[submodule "third_party/curl"]
-	path = third_party/curl
+[submodule "subprojects/curl"]
+	path = subprojects/curl
 	url = https://github.com/curl/curl.git
-[submodule "third_party/FFmpeg"]
-	path = third_party/FFmpeg
+[submodule "subprojects/FFmpeg"]
+	path = subprojects/FFmpeg
 	url = https://github.com/RPCS3/ffmpeg-core
-[submodule "third_party/llvm"]
-	path = third_party/llvm
+[submodule "subprojects/llvm"]
+	path = subprojects/llvm
 	url = https://github.com/RPCS3/llvm-mirror

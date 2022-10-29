@@ -11,7 +11,7 @@
 
 #include <string>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/base/filesystem.h"
 #include "xenia/base/string.h"
 #include "xenia/kernel/kernel_state.h"

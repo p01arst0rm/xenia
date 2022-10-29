@@ -10,7 +10,7 @@
 #include "xenia/gpu/shader_interpreter.h"
 
 #include <cfloat>
-#include <cmath>
+#include <math.h>
 #include <cstring>
 
 #include "xenia/base/assert.h"

@@ -11,7 +11,7 @@
 #include <mutex>
 #include <vector>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/base/logging.h"
 #include "xenia/base/mapped_memory.h"
 #include "xenia/base/math.h"

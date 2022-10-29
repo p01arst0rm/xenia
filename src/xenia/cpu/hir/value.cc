@@ -9,7 +9,7 @@
 
 #include "xenia/cpu/hir/value.h"
 
-#include <cmath>
+#include <math.h>
 #include <cstdlib>
 
 #include "xenia/base/assert.h"

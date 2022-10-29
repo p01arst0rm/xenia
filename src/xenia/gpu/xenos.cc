@@ -9,7 +9,7 @@
 
 #include "xenia/gpu/xenos.h"
 
-#include <cmath>
+#include <math.h>
 
 #include "xenia/base/math.h"
 

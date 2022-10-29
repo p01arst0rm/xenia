@@ -10,7 +10,7 @@
 #include "xenia/gpu/dxbc_shader_translator.h"
 
 #include <cfloat>
-#include <cmath>
+#include <math.h>
 
 #include "xenia/base/assert.h"
 #include "xenia/base/math.h"

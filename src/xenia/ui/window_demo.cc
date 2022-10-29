@@ -9,7 +9,7 @@
 
 #include <cstring>
 
-#include "third_party/imgui/imgui.h"
+#include "imgui/imgui.h"
 #include "xenia/base/clock.h"
 #include "xenia/base/logging.h"
 #include "xenia/base/profiling.h"

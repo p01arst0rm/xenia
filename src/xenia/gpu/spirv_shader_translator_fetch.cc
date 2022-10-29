@@ -10,13 +10,13 @@
 #include "xenia/gpu/spirv_shader_translator.h"
 
 #include <climits>
-#include <cmath>
+#include <math.h>
 #include <memory>
 #include <sstream>
 #include <utility>
 
-#include "third_party/fmt/include/fmt/format.h"
-#include "third_party/glslang/SPIRV/GLSL.std.450.h"
+#include "fmt/format.h"
+#include "glslang/SPIRV/GLSL.std.450.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/math.h"
 

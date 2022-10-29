@@ -13,7 +13,7 @@
 #include <cinttypes>
 
 #include "config.h"
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/apu/audio_system.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/byte_stream.h"

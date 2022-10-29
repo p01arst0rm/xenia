@@ -21,7 +21,7 @@
 #if XE_PLATFORM_ANDROID
 #include <dlfcn.h>
 #include <linux/ashmem.h>
-#include <string.h>
+#include <cstring>
 #include <sys/ioctl.h>
 
 #include "xenia/base/main_android.h"

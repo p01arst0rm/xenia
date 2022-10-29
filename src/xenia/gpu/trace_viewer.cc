@@ -12,8 +12,8 @@
 #include <cinttypes>
 #include <string>
 
-#include "third_party/half/include/half.hpp"
-#include "third_party/imgui/imgui.h"
+#include "half/include/half.hpp"
+#include "imgui/imgui.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/clock.h"
 #include "xenia/base/filesystem.h"

@@ -19,7 +19,7 @@
 #include "xenia/base/system.h"
 
 // Use headers in third party to not depend on system sdl headers for building
-#include "third_party/SDL2/include/SDL.h"
+#include "SDL2/include/SDL.h"
 
 namespace xe {
 

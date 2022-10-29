@@ -1,0 +1,8 @@
+[wrap-git]
+directory = cpptoml_git
+url = https://github.com/skystrife/cpptoml.git
+revision = master
+patch_directory = cpptoml
+
+[provide]
+cpptoml = cpptoml_dep

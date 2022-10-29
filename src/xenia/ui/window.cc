@@ -12,7 +12,7 @@
 #include <algorithm>
 #include <iterator>
 
-#include "third_party/imgui/imgui.h"
+#include "imgui/imgui.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/clock.h"
 #include "xenia/base/logging.h"

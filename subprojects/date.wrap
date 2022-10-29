@@ -1,0 +1,10 @@
+[wrap-git]
+directory = date_git
+url = https://github.com/HowardHinnant/date
+revision = 6e921e1b1d21e84a5c82416ba7ecd98e33a436d0
+patch_directory = date
+
+[provide]
+tz = tz_dep
+date = date_dep
+

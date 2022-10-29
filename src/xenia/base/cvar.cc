@@ -10,7 +10,7 @@
 #include "xenia/base/cvar.h"
 
 #define UTF_CPP_CPLUSPLUS 201703L
-#include "third_party/utfcpp/source/utf8.h"
+#include "utfcpp/source/utf8.h"
 
 #include "xenia/base/console.h"
 #include "xenia/base/logging.h"

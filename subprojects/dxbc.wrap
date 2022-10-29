@@ -1,0 +1,5 @@
+[wrap-file]
+directory = dxbc
+
+[provide]
+dxbc = dxbc_dep

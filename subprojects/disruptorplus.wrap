@@ -1,0 +1,8 @@
+[wrap-git]
+directory = disruptorplus_git
+url = https://github.com/xenia-project/disruptorplus.git
+revision = 5787e9cb7551c8c79cf9ce14f7be860dc907e9a4
+patch_directory = disruptorplus
+
+[provide]
+disruptorplus = disruptorplus_dep

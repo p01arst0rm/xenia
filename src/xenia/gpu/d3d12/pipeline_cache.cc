@@ -12,7 +12,7 @@
 #include <algorithm>
 #include <atomic>
 #include <cinttypes>
-#include <cmath>
+#include <math.h>
 #include <cstring>
 #include <deque>
 #include <mutex>
@@ -20,8 +20,8 @@
 #include <utility>
 #include <vector>
 
-#include "third_party/dxbc/DXBCChecksum.h"
-#include "third_party/fmt/include/fmt/format.h"
+#include "dxbc/DXBCChecksum.h"
+#include "fmt/format.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/byte_order.h"
 #include "xenia/base/clock.h"

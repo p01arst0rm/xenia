@@ -1,0 +1,7 @@
+[wrap-git]
+directory = renderdoc_git
+url = https://github.com/baldurk/renderdoc.git
+revision = 387a9e5702756b321a90b3543d98579f3f3acd6d
+
+[provide]
+renderdoc = renderdoc_dep

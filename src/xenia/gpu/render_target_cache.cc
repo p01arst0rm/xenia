@@ -10,7 +10,7 @@
 #include "xenia/gpu/render_target_cache.h"
 
 #include <algorithm>
-#include <cmath>
+#include <math.h>
 #include <cstring>
 #include <iterator>
 #include <tuple>

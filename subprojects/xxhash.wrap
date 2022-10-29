@@ -1,0 +1,8 @@
+[wrap-git]
+directory = xxhash_git
+url = https://github.com/Cyan4973/xxhash.git
+revision = 4c881f796d6af27ef7d9c48f87817da0d3d75dc1
+patch_directory = xxhash
+
+[provide]
+xxhash = xxhash_dep

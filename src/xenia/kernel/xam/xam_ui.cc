@@ -7,7 +7,7 @@
  ******************************************************************************
  */
 
-#include "third_party/imgui/imgui.h"
+#include "imgui/imgui.h"
 #include "xenia/base/logging.h"
 #include "xenia/base/string_util.h"
 #include "xenia/emulator.h"

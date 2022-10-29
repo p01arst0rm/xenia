@@ -1,0 +1,8 @@
+[wrap-git]
+directory = snappy_git
+url = https://github.com/xenia-project/snappy.git
+revision = 303cd2c64c62c579a8592236f723b611afd3bc15
+patch_directory = snappy
+
+[provide]
+snappy = snappy_dep

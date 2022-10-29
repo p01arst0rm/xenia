@@ -9,8 +9,8 @@
 
 #include "xenia/base/memory.h"
 
-#include "third_party/catch/include/catch.hpp"
-#include "third_party/fmt/include/fmt/format.h"
+#include "catch/include/catch.hpp"
+#include "fmt/format.h"
 
 #include "xenia/base/clock.h"
 

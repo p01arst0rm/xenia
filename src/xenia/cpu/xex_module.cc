@@ -11,7 +11,7 @@
 
 #include <algorithm>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 
 #include "xenia/base/byte_order.h"
 #include "xenia/base/logging.h"
@@ -24,10 +24,10 @@
 #include "xenia/kernel/kernel_state.h"
 #include "xenia/kernel/xmodule.h"
 
-#include "third_party/crypto/TinySHA1.hpp"
-#include "third_party/crypto/rijndael-alg-fst.c"
-#include "third_party/crypto/rijndael-alg-fst.h"
-#include "third_party/pe/pe_image.h"
+#include "crypto/TinySHA1.hpp"
+#include "crypto/rijndael-alg-fst.c"
+#include "crypto/rijndael-alg-fst.h"
+#include "pe/pe_image.h"
 
 static const uint8_t xe_xex2_retail_key[16] = {
     0x20, 0xB1, 0x85, 0xA5, 0x9D, 0x28, 0xFD, 0xC3,

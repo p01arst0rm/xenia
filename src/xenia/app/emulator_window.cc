@@ -16,8 +16,8 @@
 #include <string>
 #include <utility>
 
-#include "third_party/fmt/include/fmt/format.h"
-#include "third_party/imgui/imgui.h"
+#include "fmt/format.h"
+#include "imgui/imgui.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/clock.h"
 #include "xenia/base/cvar.h"

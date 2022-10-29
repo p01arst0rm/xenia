@@ -1,0 +1,11 @@
+# xenia project build options
+#============================================================================
+
+# dirs
+#============================================================================
+
+option(
+    'toolchainprefix',
+    type : 'string',
+    description : 'path of the xenia toolchain (defaults to project_root/local)')
+

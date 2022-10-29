@@ -14,7 +14,7 @@
 #include <utility>
 #include <vector>
 
-#include "third_party/glslang/SPIRV/disassemble.h"
+#include "glslang/SPIRV/disassemble.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/console_app_main.h"
 #include "xenia/base/cvar.h"

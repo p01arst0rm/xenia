@@ -9,7 +9,7 @@
 
 #include "xenia/ui/imgui_dialog.h"
 
-#include "third_party/imgui/imgui.h"
+#include "imgui/imgui.h"
 #include "xenia/base/assert.h"
 #include "xenia/ui/imgui_drawer.h"
 

@@ -17,8 +17,8 @@
 #include <utility>
 #include <vector>
 
-#include "third_party/fmt/include/fmt/format.h"
-#include "third_party/glslang/SPIRV/SpvBuilder.h"
+#include "fmt/format.h"
+#include "glslang/SPIRV/SpvBuilder.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/logging.h"
 #include "xenia/base/math.h"

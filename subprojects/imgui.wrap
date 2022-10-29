@@ -1,0 +1,6 @@
+[wrap-file]
+directory = imgui
+patch_directory = imgui
+
+[provide]
+imgui = imgui_dep

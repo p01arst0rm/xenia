@@ -8,11 +8,11 @@
  */
 
 #include <algorithm>
-#include <cmath>
+#include <math.h>
 #include <memory>
 #include <sstream>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/math.h"
 #include "xenia/base/string.h"

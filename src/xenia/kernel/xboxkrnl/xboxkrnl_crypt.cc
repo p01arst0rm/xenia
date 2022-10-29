@@ -20,16 +20,16 @@
 #include "xenia/base/platform_win.h"  // for bcrypt.h
 #endif
 
-#include "third_party/crypto/TinySHA1.hpp"
-#include "third_party/crypto/des/des.cpp"
-#include "third_party/crypto/des/des.h"
-#include "third_party/crypto/des/des3.h"
-#include "third_party/crypto/des/descbc.h"
-#include "third_party/crypto/sha256.cpp"
-#include "third_party/crypto/sha256.h"
+#include "crypto/TinySHA1.hpp"
+#include "crypto/des/des.cpp"
+#include "crypto/des/des.h"
+#include "crypto/des/des3.h"
+#include "crypto/des/descbc.h"
+#include "crypto/sha256.cpp"
+#include "crypto/sha256.h"
 
 extern "C" {
-#include "third_party/aes_128/aes.h"
+#include "aes_128/aes.h"
 }
 
 namespace xe {

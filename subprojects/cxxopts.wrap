@@ -1,0 +1,8 @@
+[wrap-git]
+directory = cxxopts_git
+url = https://github.com/jarro2783/cxxopts.git
+revision = 48e265dc4b347d3178e4458de81704e0d88047b2
+patch_directory = cxxopts
+
+[provide]
+cxxopts = cxxopts_dep

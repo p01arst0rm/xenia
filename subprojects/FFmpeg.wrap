@@ -1,0 +1,8 @@
+[wrap-git]
+directory=FFmpeg_git
+url=https://gitlab.freedesktop.org/gstreamer/meson-ports/ffmpeg.git
+push-url=git@gitlab.freedesktop.org:gstreamer/meson-ports/ffmpeg.git
+revision=meson-4.4.2
+
+[provide]
+ffmpeg = [libavcodec_dep, libavutil_dep]

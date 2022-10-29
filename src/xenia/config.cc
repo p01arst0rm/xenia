@@ -9,8 +9,8 @@
 
 #include "config.h"
 
-#include "third_party/cpptoml/include/cpptoml.h"
-#include "third_party/fmt/include/fmt/format.h"
+#include "cpptoml/cpptoml.h"
+#include "fmt/format.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/cvar.h"
 #include "xenia/base/filesystem.h"

@@ -10,11 +10,11 @@
 #include <algorithm>
 #include <forward_list>
 
-#include "third_party/disruptorplus/include/disruptorplus/multi_threaded_claim_strategy.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/ring_buffer.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/sequence_barrier.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/spin_wait.hpp"
-#include "third_party/disruptorplus/include/disruptorplus/spin_wait_strategy.hpp"
+#include "disruptorplus/include/disruptorplus/multi_threaded_claim_strategy.hpp"
+#include "disruptorplus/include/disruptorplus/ring_buffer.hpp"
+#include "disruptorplus/include/disruptorplus/sequence_barrier.hpp"
+#include "disruptorplus/include/disruptorplus/spin_wait.hpp"
+#include "disruptorplus/include/disruptorplus/spin_wait_strategy.hpp"
 
 #include "xenia/base/assert.h"
 #include "xenia/base/threading.h"

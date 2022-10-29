@@ -10,7 +10,7 @@
 #include "xenia/gpu/texture_conversion.h"
 
 #include <algorithm>
-#include <cmath>
+#include <math.h>
 #include <cstring>
 #include <functional>
 

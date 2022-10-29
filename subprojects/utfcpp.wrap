@@ -1,0 +1,8 @@
+[wrap-git]
+directory = utfcpp_git
+url = https://github.com/xenia-project/utfcpp.git
+revision = f295c4b9a1f4db635164ab4defc3938049152a3c
+patch_directory = utfcpp
+
+[provide]
+utfcpp = utfcpp_dep

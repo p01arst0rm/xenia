@@ -14,7 +14,7 @@
 #include <climits>
 #include <cstring>
 
-#include "third_party/fmt/include/fmt/format.h"
+#include "fmt/format.h"
 #include "xenia/base/assert.h"
 #include "xenia/base/atomic.h"
 #include "xenia/base/debugging.h"

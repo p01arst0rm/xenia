@@ -10,7 +10,7 @@
 #include "xenia/base/chrono.h"
 
 #define CATCH_CONFIG_ENABLE_CHRONO_STRINGMAKER
-#include "third_party/catch/include/catch.hpp"
+#include "catch/include/catch.hpp"
 
 namespace xe::base::test {
 

@@ -15,7 +15,7 @@
 #include "xenia/cpu/backend/x64/x64_op.h"
 
 // For OPCODE_PACK/OPCODE_UNPACK
-#include "third_party/half/include/half.hpp"
+#include "half/include/half.hpp"
 
 namespace xe {
 namespace cpu {

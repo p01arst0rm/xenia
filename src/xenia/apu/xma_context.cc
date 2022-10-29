@@ -25,7 +25,7 @@ extern "C" {
 #pragma warning(push)
 #pragma warning(disable : 4101 4244 5033)
 #endif
-#include "third_party/FFmpeg/libavcodec/avcodec.h"
+#include "FFmpeg/libavcodec/avcodec.h"
 #if XE_COMPILER_MSVC
 #pragma warning(pop)
 #endif

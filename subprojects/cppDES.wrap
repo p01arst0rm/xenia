@@ -1,0 +1,5 @@
+[wrap-file]
+directory = cppDES
+
+[provide]
+cppDES = cppdes_dep

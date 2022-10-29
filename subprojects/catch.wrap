@@ -1,0 +1,8 @@
+[wrap-git]
+directory = catch_git
+url = https://github.com/catchorg/Catch2.git
+revision = d2d8455b571b6c66c4b7003500a77f9a93ecdc28
+patch_directory = catch
+
+[provide]
+catch = catch_dep

@@ -13,10 +13,10 @@
 #include <cinttypes>
 #include <utility>
 
-#include "third_party/capstone/include/capstone/capstone.h"
-#include "third_party/capstone/include/capstone/x86.h"
-#include "third_party/imgui/imgui.h"
-#include "third_party/imgui/imgui_internal.h"
+#include "capstone/include/capstone/capstone.h"
+#include "capstone/include/capstone/x86.h"
+#include "imgui/imgui.h"
+#include "imgui/imgui_internal.h"
 #include "xenia/base/clock.h"
 #include "xenia/base/fuzzy.h"
 #include "xenia/base/logging.h"
