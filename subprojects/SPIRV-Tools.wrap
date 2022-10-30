@@ -1,4 +1,4 @@
 [wrap-git]
-directory = SPIRV-Tools_git
+directory = SPIRV-Tools
 url = https://github.com/KhronosGroup/SPIRV-Tools.git
 revision = master

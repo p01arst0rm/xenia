@@ -1,5 +1,5 @@
 [wrap-git]
-directory = glslang_git
+directory = glslang
 url = https://github.com/KhronosGroup/glslang.git
 revision = master
 patch_directory = glslang

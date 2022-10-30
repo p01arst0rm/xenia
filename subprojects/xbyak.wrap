@@ -1,5 +1,5 @@
 [wrap-git]
-directory = xbyak_git
+directory = xbyak
 url = https://github.com/xenia-project/xbyak.git
 revision = bc70e7e11ad37f207ece73330c5b72a55fef1ceb
 patch_directory = xbyak

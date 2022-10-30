@@ -1,5 +1,5 @@
 [wrap-git]
-directory = FidelityFX-FSR_git
+directory = FidelityFX-FSR
 url = https://github.com/GPUOpen-Effects/FidelityFX-FSR.git
 revision = a21ffb8f6c13233ba336352bdff293894c706575
 patch_directory = FidelityFX-FSR

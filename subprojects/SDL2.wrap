@@ -1,5 +1,5 @@
 [wrap-git]
-directory = SDL2_git
+directory = SDL2
 url = https://github.com/libsdl-org/SDL.git
 revision = b424665e0899769b200231ba943353a5fee1b6b6
 patch_directory = SDL2

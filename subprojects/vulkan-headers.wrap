@@ -1,5 +1,5 @@
 [wrap-git]
-directory = vulkan-headers_git
+directory = Vulkan-Headers
 url = https://github.com/KhronosGroup/vulkan-headers.git
 revision=320af06cbdd29848e1d7100d9b8e4e517db1dfd5
 patch_directory = vulkan-headers

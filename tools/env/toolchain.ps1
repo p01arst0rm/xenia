@@ -8,7 +8,7 @@ param (
 
 function build_llvm() {
     Write-Output "[|] Configuring LLVM..."
-    cmake -S "$root\subprojects\llvm_git" -B "$root\build\llvm\" -Thost=x64 `
+    cmake -S "$root\subprojects\llvm" -B "$root\build\llvm\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release `
         -DLLVM_TARGETS_TO_BUILD=X86 `
@@ -34,7 +34,7 @@ function build_llvm() {
 
 function build_libcurl() {
     Write-Output "[|] Configuring libcurl..."
-    cmake -S "$root\subprojects\libcurl_git" -B "$root\build\libcurl\" -Thost=x64 `
+    cmake -S "$root\subprojects\libcurl" -B "$root\build\libcurl\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release `
     
@@ -48,7 +48,7 @@ function build_libcurl() {
 
 function build_glslang() {
     Write-Output "[|] Configuring glslang..."
-    cmake -S "$root\subprojects\glslang_git" -B "$root\build\glslang\" -Thost=x64 `
+    cmake -S "$root\subprojects\glslang" -B "$root\build\glslang\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DENABLE_PCH:BOOL=OFF `
         -DBUILD_EXTERNAL:BOOL=OFF `
@@ -69,7 +69,7 @@ function build_glslang() {
 
 function build_spirv_headers() {
     Write-Output "[|] Configuring SPIRV-Headers..."
-    cmake -S "$root\subprojects\SPIRV-Headers_git" -B "$root\build\SPIRV-Headers\" -Thost=x64 `
+    cmake -S "$root\subprojects\SPIRV-Headers" -B "$root\build\SPIRV-Headers\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release
     
@@ -83,10 +83,10 @@ function build_spirv_headers() {
 
 function build_spirv_tools() {
     Write-Output "[|] Configuring SPIRV-Tools..."
-    cmake -S "$root\subprojects\SPIRV-Tools_git" -B "$root\build\SPIRV-Tools\" -Thost=x64 `
+    cmake -S "$root\subprojects\SPIRV-Tools" -B "$root\build\SPIRV-Tools\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release `
-        -DSPIRV-Headers_SOURCE_DIR:PATH="$root\subprojects\SPIRV-Headers_git"
+        -DSPIRV-Headers_SOURCE_DIR:PATH="$root\subprojects\SPIRV-Headers"
     
     Write-Output "[|] Building SPIRV-Tools..."
     cmake --build "$root\build\SPIRV-Tools\" --target ALL_BUILD --config Release
@@ -98,7 +98,7 @@ function build_spirv_tools() {
 
 function build_VulkanMemoryAllocator() {
     Write-Output "[|] Configuring VulkanMemoryAllocator..."
-    cmake -S "$root\subprojects\VulkanMemoryAllocator_git" -B "$root\build\VulkanMemoryAllocator\" -Thost=x64 `
+    cmake -S "$root\subprojects\VulkanMemoryAllocator" -B "$root\build\VulkanMemoryAllocator\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release
     
@@ -112,7 +112,7 @@ function build_VulkanMemoryAllocator() {
 
 function build_DirectXShaderCompiler() {
     Write-Output "[|] Configuring DirectXShaderCompiler..."
-    cmake -S "$root\subprojects\DirectXShaderCompiler_git" -B "$root\build\DirectXShaderCompiler\" -Thost=x64 `
+    cmake -S "$root\subprojects\DirectXShaderCompiler" -B "$root\build\DirectXShaderCompiler\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release
     
@@ -126,7 +126,7 @@ function build_DirectXShaderCompiler() {
 
 function build_SDL2() {
     Write-Output "[|] Configuring SDL2..."
-    cmake -S "$root\subprojects\SDL2_git" -B "$root\build\SDL2\" -Thost=x64 `
+    cmake -S "$root\subprojects\SDL2" -B "$root\build\SDL2\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release
     

@@ -1,5 +1,5 @@
 [wrap-git]
-directory = cpptoml_git
+directory = cpptoml
 url = https://github.com/skystrife/cpptoml.git
 revision = master
 patch_directory = cpptoml

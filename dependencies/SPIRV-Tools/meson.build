@@ -6,7 +6,7 @@ SPIRV_Tools_dep = dependency('SPIRV-Tools', required : false)
 if not SPIRV_Tools_dep.found()
     _deps = []
     SPIRV_Tools_headers_dir = join_paths(meson.project_source_root(),
-        'subprojects', 'SPIRV-Tools_git', 'include')
+        'subprojects', 'SPIRV-Tools', 'include')
 
     foreach d : ['SPIRV-Tools-diff', 'SPIRV-Tools-link', 'SPIRV-Tools-lint',
                 'SPIRV-Tools-opt', 'SPIRV-Tools-reduce', 'SPIRV-Tools-shared',

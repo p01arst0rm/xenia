@@ -1,5 +1,5 @@
 [wrap-git]
-directory=fmt_git
+directory=fmt
 url=https://github.com/fmtlib/fmt.git
 revision=27e3c0fe9b5dc99f339637ec2ea7efae5b945ab8
 patch_directory = fmt
