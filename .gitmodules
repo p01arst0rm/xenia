@@ -123,6 +123,6 @@
 	url = https://github.com/RPCS3/ffmpeg-core
 	ignore = dirty
 [submodule "subprojects/llvm-mirror"]
-	path = subprojects/llvm-mirror
+	path = subprojects/llvm/
 	url = https://github.com/RPCS3/llvm-mirror
 	ignore = dirty

@@ -1,5 +1,5 @@
 [wrap-git]
-directory = aes_128_git
+directory = aes_128
 url = https://github.com/openluopworld/aes_128.git
 revision = master
 patch_directory = aes_128

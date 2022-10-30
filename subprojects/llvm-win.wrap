@@ -1,5 +1,5 @@
 [wrap-git]
-directory=llvm_git
+directory=llvm
 url=https://github.com/RPCS3/llvm-mirror.git
 revision=509d31ad89676522f7121b3bb8688f7d29b7ee60
 patch_directory=llvm

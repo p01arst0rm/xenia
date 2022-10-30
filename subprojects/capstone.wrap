@@ -1,5 +1,5 @@
 [wrap-git]
-directory = capstone_git
+directory = capstone
 url = https://github.com/xenia-project/capstone.git
 revision = master
 patch_directory = capstone

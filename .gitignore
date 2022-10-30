@@ -80,7 +80,7 @@ imgui.ini
 local
 
 # subprojects
-subprojects/
+subprojects/*
 !subprojects/*.wrap
 !subprojects/packagefiles
 

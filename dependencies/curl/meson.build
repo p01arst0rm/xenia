@@ -3,4 +3,4 @@
 
 libcurl_dep = dependency(
     'curl',
-    fallback : ['libcurl', 'libcurl_dep'])
+    fallback : ['curl', 'libcurl_dep'])
