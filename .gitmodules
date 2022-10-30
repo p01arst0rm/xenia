@@ -1,96 +1,128 @@
 [submodule "subprojects/xbyak"]
 	path = subprojects/xbyak
 	url = https://github.com/xenia-project/xbyak.git
+	ignore = dirty
 [submodule "subprojects/binutils-ppc-cygwin"]
 	path = subprojects/binutils-ppc-cygwin
 	url = https://github.com/benvanik/binutils-ppc-cygwin.git
+	ignore = dirty
 [submodule "subprojects/catch2"]
 	path = subprojects/catch
 	url = https://github.com/catchorg/catch2.git
+	ignore = dirty
 [submodule "subprojects/premake-core"]
 	path = subprojects/premake-core
 	url = https://github.com/xenia-project/premake-core.git
+	ignore = dirty
 [submodule "subprojects/snappy"]
 	path = subprojects/snappy
 	url = https://github.com/xenia-project/snappy.git
+	ignore = dirty
 [submodule "subprojects/premake-export-compile-commands"]
 	path = subprojects/premake-export-compile-commands
 	url = https://github.com/xenia-project/premake-export-compile-commands.git
+	ignore = dirty
 [submodule "subprojects/discord-rpc"]
 	path = subprojects/discord-rpc
 	url = https://github.com/discordapp/discord-rpc.git
+	ignore = dirty
 [submodule "subprojects/rapidjson"]
 	path = subprojects/rapidjson
 	url = https://github.com/Tencent/rapidjson.git
+	ignore = dirty
 [submodule "subprojects/aes_128"]
 	path = subprojects/aes_128
 	url = https://github.com/openluopworld/aes_128.git
+	ignore = dirty
 [submodule "subprojects/capstone"]
 	path = subprojects/capstone
 	url = https://github.com/xenia-project/capstone.git
+	ignore = dirty
 [submodule "subprojects/cpptoml"]
 	path = subprojects/cpptoml
 	url = https://github.com/skystrife/cpptoml.git
+	ignore = dirty
 [submodule "subprojects/cxxopts"]
 	path = subprojects/cxxopts
 	url = https://github.com/jarro2783/cxxopts.git
+	ignore = dirty
 [submodule "subprojects/SDL"]
 	path = subprojects/SDL2
 	url = https://github.com/libsdl-org/SDL.git
+	ignore = dirty
 [submodule "subprojects/utfcpp"]
 	path = subprojects/utfcpp
 	url = https://github.com/xenia-project/utfcpp.git
+	ignore = dirty
 [submodule "subprojects/fmt"]
 	path = subprojects/fmt
 	url = https://github.com/fmtlib/fmt.git
+	ignore = dirty
 [submodule "subprojects/disruptorplus"]
 	path = subprojects/disruptorplus
 	url = https://github.com/xenia-project/disruptorplus.git
+	ignore = dirty
 [submodule "subprojects/DirectXShaderCompiler"]
 	path = subprojects/DirectXShaderCompiler
 	url = https://github.com/microsoft/DirectXShaderCompiler.git
+	ignore = dirty
 [submodule "subprojects/premake-cmake"]
 	path = subprojects/premake-cmake
 	url = https://github.com/JoelLinn/premake-cmake.git
+	ignore = dirty
 [submodule "subprojects/date"]
 	path = subprojects/date
 	url = https://github.com/HowardHinnant/date.git
+	ignore = dirty
 [submodule "subprojects/xxHash"]
 	path = subprojects/xxhashs/
 	url = https://github.com/Cyan4973/xxHash.git
+	ignore = dirty
 [submodule "subprojects/xxhash"]
 	path = subprojects/xxhash
 	url = https://github.com/Cyan4973/xxhash.git
+	ignore = dirty
 [submodule "subprojects/premake-androidndk"]
 	path = subprojects/premake-androidndk
 	url = https://github.com/Triang3l/premake-androidndk.git
+	ignore = dirty
 [submodule "subprojects/FidelityFX-CAS"]
 	path = subprojects/FidelityFX-CAS
 	url = https://github.com/GPUOpen-Effects/FidelityFX-CAS.git
+	ignore = dirty
 [submodule "subprojects/FidelityFX-FSR"]
 	path = subprojects/FidelityFX-FSR
 	url = https://github.com/GPUOpen-Effects/FidelityFX-FSR.git
+	ignore = dirty
 [submodule "subprojects/Vulkan-Headers"]
 	path = subprojects/Vulkan-Headers
 	url = https://github.com/KhronosGroup/Vulkan-Headers.git
+	ignore = dirty
 [submodule "subprojects/glslang"]
 	path = subprojects/glslang
 	url = https://github.com/KhronosGroup/glslang.git
+	ignore = dirty
 [submodule "subprojects/SPIRV-Tools"]
 	path = subprojects/SPIRV-Tools
 	url = https://github.com/KhronosGroup/SPIRV-Tools.git
+	ignore = dirty
 [submodule "subprojects/VulkanMemoryAllocator"]
 	path = subprojects/VulkanMemoryAllocator
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+	ignore = dirty
 [submodule "subprojects/SPIRV-Headers"]
 	path = subprojects/SPIRV-Headers
 	url = https://github.com/KhronosGroup/SPIRV-Headers.git
+	ignore = dirty
 [submodule "subprojects/curl"]
 	path = subprojects/curl
 	url = https://github.com/curl/curl.git
+	ignore = dirty
 [submodule "subprojects/FFmpeg"]
 	path = subprojects/FFmpeg
 	url = https://github.com/RPCS3/ffmpeg-core
+	ignore = dirty
 [submodule "subprojects/llvm-mirror"]
 	path = subprojects/llvm-mirror
 	url = https://github.com/RPCS3/llvm-mirror
+	ignore = dirty
