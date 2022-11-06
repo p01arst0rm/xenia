@@ -32,17 +32,17 @@ function build_llvm() {
 }
 
 
-function build_libcurl() {
-    Write-Output "[|] Configuring libcurl..."
-    cmake -S "$root\subprojects\libcurl" -B "$root\build\libcurl\" -Thost=x64 `
+function build_curl() {
+    Write-Output "[|] Configuring curl..."
+    cmake -S "$root\subprojects\curl" -B "$root\build\curl\" -Thost=x64 `
         -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
         -DCMAKE_CONFIGURATION_TYPES=Release `
     
-    Write-Output "[|] Building libcurl..."
-    cmake --build "$root\build\libcurl\" --target ALL_BUILD --config Release
+    Write-Output "[|] Building curl..."
+    cmake --build "$root\build\curl\" --target ALL_BUILD --config Release
 
-    Write-Output "[|] Installing libcurl to subproject directory..."
-    cmake --build "$root\build\libcurl\" --target INSTALL --config Release
+    Write-Output "[|] Installing curl to subproject directory..."
+    cmake --build "$root\build\curl\" --target INSTALL --config Release
 }
 
 
@@ -137,32 +137,48 @@ function build_SDL2() {
     cmake --build "$root\build\SDL2\" --target INSTALL --config Release
 }
 
+function build_date() {
+    Write-Output "[|] Configuring date..."
+    cmake -S "$root\subprojects\date" -B "$root\build\date\" -Thost=x64 `
+        -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
+        -DCMAKE_CONFIGURATION_TYPES=Release
+    
+    Write-Output "[|] Building date..."
+    cmake --build "$root\build\date\" --target ALL_BUILD --config Release
+
+    Write-Output "[|] Installing date to subproject directory..."
+    cmake --build "$root\build\date\" --target INSTALL --config Release
+}
+
 
 function main() {
 
     Write-Output "[+] installing llvm..."
     build_llvm
 
-    # Write-Output "[+] installing libcurl..."
-    # build_libcurl
+    Write-Output "[+] installing curl..."
+    build_curl
 
-    # Write-Output "[+] installing glslang..."
-    # build_glslang
+    Write-Output "[+] installing glslang..."
+    build_glslang
 
-    # Write-Output "[+] installing SPIRV-Headers..."
-    # build_spirv_headers
+    Write-Output "[+] installing SPIRV-Headers..."
+    build_spirv_headers
 
-    # Write-Output "[+] installing SPIRV-Tools..."
-    # build_spirv_tools
+    Write-Output "[+] installing SPIRV-Tools..."
+    build_spirv_tools
 
-    # Write-Output "[+] installing VulkanMemoryAllocator..."
-    # build_VulkanMemoryAllocator
+    Write-Output "[+] installing VulkanMemoryAllocator..."
+    build_VulkanMemoryAllocator
 
-    # Write-Output "[+] installing DirectXShaderCompiler..."
-    # build_DirectXShaderCompiler
+    Write-Output "[+] installing DirectXShaderCompiler..."
+    build_DirectXShaderCompiler
 
-    # Write-Output "[+] installing SDL2..."
-    # build_SDL2
+    Write-Output "[+] installing SDL2..."
+    build_SDL2
+
+    Write-Output "[+] installing date..."
+    build_date
 
 }
 

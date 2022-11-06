@@ -13,20 +13,22 @@ write-output "[+] Setting path variables..."
 [string]$root = Get-Location
 [string]$prefix = "$root\local"
 $Env:PATH += ";$prefix;$prefix\include"
-$PKG_CONFIG_PATH += ";C:\Program Files;C:\Program Files (x86);"
-$PKG_CONFIG_PATH += ";$prefix;$prefix\share;"
-$PKG_CONFIG_PATH += ";$prefix\lib\pkgconfig;"
-$PKG_CONFIG_PATH += ";$prefix\share\pkgconfig;"
+$Env:PKG_CONFIG_PATH += ";C:\Program Files;C:\Program Files (x86);"
+$Env:PKG_CONFIG_PATH += ";$prefix;$prefix\share;"
+$Env:PKG_CONFIG_PATH += ";$prefix\lib\pkgconfig;"
+$Env:PKG_CONFIG_PATH += ";$prefix\share\pkgconfig;"
 
-$CMAKE_PREFIX_PATH += ";C:\Program Files;C:\Program Files (x86);"
-$CMAKE_PREFIX_PATH += ";$prefix;$prefix\lib;$prefix\share;"
+$Env:CMAKE_PREFIX_PATH += ";C:\Program Files;C:\Program Files (x86);$prefix;$prefix\cmake;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\lib\;$prefix\lib\cmake;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\share;$prefix\share\cmake;"
+
 $CMAKE_PREFIX_PATH += "$prefix\lib\cmake\CURL;"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools;"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-diff;"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-link;"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-lint"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-opt"
-$CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-reduce"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-diff;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-link;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-lint"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-opt"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-reduce"
 
 function download_subprojects() {
     write-output "[+] downloading xenia subprojects..."
@@ -43,7 +45,7 @@ function build_xenia() {
     write-output "[|] Configuring With Meson..."
     meson setup build/xenia `
         --native-file ".\buildfiles\meson\x86_64-clang-msvc.ini" `
-        -Dcmake_prefix_path="$CMAKE_PREFIX_PATH" `
+        -Dcmake_prefix_path="$Env:CMAKE_PREFIX_PATH" `
         -Dprefix="$prefix" `
 
     write-output "[|] Building xenia..."
@@ -53,7 +55,7 @@ function build_xenia() {
 function main() {
 
     write-output "[+] Deleting existing buildfiles"
-    # Remove-Item -Recurse -force "build/xenia"
+    Remove-Item -Recurse -force "build/xenia"
 
     write-output "[+] downloading xenia subprojects..."
     download_subprojects
