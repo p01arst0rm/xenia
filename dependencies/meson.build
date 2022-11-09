@@ -7,7 +7,7 @@
 required_deps = [
     
     'catch',
-    'curl',
+    #'curl',
     'crypto',
     # 'date',
     # 'pe',

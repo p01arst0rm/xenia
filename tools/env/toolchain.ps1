@@ -9,7 +9,7 @@ param (
 function build_llvm() {
     Write-Output "[|] Configuring LLVM..."
     cmake -S "$root\subprojects\llvm" -B "$root\build\llvm\" -Thost=x64 `
-        -DCMAKE_INSTALL_PREFIX:PATH="$prefix\" `
+        -DCMAKE_INSTALL_PREFIX:PATH="$root\subprojects\llvm\" `
         -DCMAKE_CONFIGURATION_TYPES=Release `
         -DLLVM_TARGETS_TO_BUILD=X86 `
         -DLLVM_BUILD_RUNTIME=false `

@@ -12,18 +12,19 @@
 write-output "[+] Setting path variables..."
 [string]$root = Get-Location
 [string]$prefix = "$root\local"
-$Env:PATH += ";$prefix;$prefix\include"
+$Env:PATH += ";$prefix;$prefix\include;$prefix\bin\;"
 $Env:PKG_CONFIG_PATH += ";C:\Program Files;C:\Program Files (x86);"
-$Env:PKG_CONFIG_PATH += ";$prefix;$prefix\share;"
-$Env:PKG_CONFIG_PATH += ";$prefix\lib\pkgconfig;"
-$Env:PKG_CONFIG_PATH += ";$prefix\share\pkgconfig;"
+$Env:PKG_CONFIG_PATH += ";$prefix;$prefix\pkgconfig;"
+$Env:PKG_CONFIG_PATH += ";$prefix\lib\;$prefix\lib\pkgconfig;"
+$Env:PKG_CONFIG_PATH += ";$prefix\share\;$prefix\share\pkgconfig;"
 
-$Env:CMAKE_PREFIX_PATH += ";C:\Program Files;C:\Program Files (x86);$prefix;$prefix\cmake;"
+$Env:CMAKE_PREFIX_PATH += ";C:\Program Files;C:\Program Files (x86);"
+$Env:CMAKE_PREFIX_PATH += ";$prefix;$prefix\cmake;"
 $Env:CMAKE_PREFIX_PATH += ";$prefix\lib\;$prefix\lib\cmake;"
 $Env:CMAKE_PREFIX_PATH += ";$prefix\share;$prefix\share\cmake;"
 
-$CMAKE_PREFIX_PATH += "$prefix\lib\cmake\CURL;"
-$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\lib\cmake\CURL;"
+$Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools\cmake;"
 $Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-diff;"
 $Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-link;"
 $Env:CMAKE_PREFIX_PATH += ";$prefix\SPIRV-Tools-lint"
@@ -45,6 +46,7 @@ function build_xenia() {
     write-output "[|] Configuring With Meson..."
     meson setup build/xenia `
         --native-file ".\buildfiles\meson\x86_64-clang-msvc.ini" `
+        -Dpkg_config_path="$Env:PKG_CONFIG_PATH" `
         -Dcmake_prefix_path="$Env:CMAKE_PREFIX_PATH" `
         -Dprefix="$prefix" `
 

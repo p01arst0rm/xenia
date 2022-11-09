@@ -1,7 +1,7 @@
 # SPIRV-Tools dependency
 #============================================================================
 
-SPIRV_Tools_dep = dependency('SPIRV-Tools', required : false)  
+SPIRV_Tools_dep = dependency('SPIRV-Tools')  
 
 if not SPIRV_Tools_dep.found()
     _deps = []
