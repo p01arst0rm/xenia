@@ -46,8 +46,8 @@ function build_xenia() {
     write-output "[|] Configuring With Meson..."
     meson setup build/xenia `
         --native-file ".\buildfiles\meson\x86_64-clang-msvc.ini" `
-        -Dpkg_config_path="$Env:PKG_CONFIG_PATH" `
-        -Dcmake_prefix_path="$Env:CMAKE_PREFIX_PATH" `
+        --pkg-config-path="$Env:PKG_CONFIG_PATH" `
+        --cmake-prefix-path="$Env:CMAKE_PREFIX_PATH" `
         -Dprefix="$prefix" `
 
     write-output "[|] Building xenia..."
